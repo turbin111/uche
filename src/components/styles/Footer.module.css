@@ -1,0 +1,94 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 40px 80px;
+    background-color: #ffffff;
+  }
+  
+  .contact {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #282828;
+    text-align: left;
+    align-self: stretch;
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+    width: 100%;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+  }
+  
+  .cardRow {
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  .phone, .address, .workingHours, .socials {
+    background: #f1f3f4;
+    border-radius: 12px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+  }
+  
+  .phone2, .address2, .workingHours2, .socials2 {
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 20px;
+    color: #8b8b8b;
+  }
+  
+  ._7_499, .dubininskaya, ._24_hours {
+    font-family: "Montserrat-SemiBold", sans-serif;
+    font-size: 40px;
+    color: #282828;
+  }
+  
+  .socials {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .socials a {
+    font-family: "Montserrat-Medium", sans-serif;
+    font-size: 20px;
+    color: #8b8b8b;
+    text-decoration: none;
+  }
+  
+  .socials a:hover {
+    color: #16a34a;
+  }
+  
+  .map {
+    width: 100%;
+    height: 350px;
+    border-radius: 12px;
+  }
+  
+  .footerContent {
+    text-align: center;
+    font-size: 14px;
+    color: #4b5563;
+  }
+  
+  .footerContent p {
+    margin-top: 20px;
+  }
+  

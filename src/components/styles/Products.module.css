@@ -1,0 +1,177 @@
+/* Основной контейнер страницы */
+.productsPage {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eef2f6; /* Светло-серый фон для контраста */
+    padding: 30px;
+}
+
+/* Навигационная панель */
+.navbar {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.navbar .logo {
+    color: #16a34a;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.navbar .menu a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar .menu a:hover {
+    color: #15803d; /* Темно-зеленый при наведении */
+}
+
+/* Блок сортировки */
+.sorting {
+    margin: 20px 0 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+.sorting label {
+    font-size: 16px;
+    color: #4b5563;
+    font-weight: 500;
+}
+
+.sorting button {
+    padding: 12px 20px;
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sorting button:hover {
+    background-color: #15803d;
+    transform: scale(1.03);
+}
+
+/* Секция продуктов */
+.productsSection {
+    margin: 40px 0;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Более гибкая сетка */
+    gap: 24px;
+}
+
+.productCard {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.productCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.productCard img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 16px;
+}
+
+.productCard .discountBadge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #e11d48; /* Красный для выделения скидки */
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.productCard h3 {
+    font-size: 18px;
+    color: #374151;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.productCard .discountPrice {
+    color: #16a34a;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.productCard .oldPrice {
+    color: #9ca3af;
+    font-size: 16px;
+    text-decoration: line-through;
+    margin-bottom: 16px;
+}
+
+.productCard button {
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.productCard button:hover {
+    background-color: #15803d;
+    transform: scale(1.03);
+}
+
+/* Секция контактов */
+.contactSection {
+    margin: 60px 0;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.contactDetails {
+    flex: 1;
+}
+
+.contactDetails h2 {
+    color: #16a34a;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}

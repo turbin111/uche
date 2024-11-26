@@ -1,0 +1,186 @@
+.cartPage {
+  padding: 20px;
+  background-color: #f1fdf2;
+}
+
+.cartContent {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.cartItems {
+  width: 65%;
+}
+
+.checkoutForm {
+  width: 30%;
+  padding: 20px;
+  background-color: #e6f9e6;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cartSummary {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.itemImage {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.itemDetails {
+  flex: 1;
+}
+
+.quantityControl {
+  display: flex;
+  align-items: center;
+}
+
+.quantityControl button {
+  background: none;
+  border: 1px solid #28a745;
+  padding: 6px 12px;
+  margin: 0 8px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.price {
+  width: 120px;
+  text-align: right;
+  color: #2d6a4f;
+  font-weight: bold;
+}
+
+.removeButton {
+  margin-left: 20px;
+}
+
+.removeButton button {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.checkoutForm input {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.orderButton {
+  width: 100%;
+  padding: 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.orderButton:hover {
+  background-color: #218838;
+}
+
+.emptyCart {
+  text-align: center;
+  margin: 60px auto;
+}
+
+.emptyCart h1 {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+  color: #28a745;
+}
+
+.emptyCart p {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.exploreButton {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  background-color: #007b33;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.exploreButton:hover {
+  background-color: #005a2d;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modalContent h2 {
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+  color: #28a745;
+}
+
+.modalContent p {
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.closeButton {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  background-color: #007b33;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.closeButton:hover {
+  background-color: #005a2d;
+}

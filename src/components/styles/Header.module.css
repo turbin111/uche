@@ -1,0 +1,38 @@
+/* src/components/Header.module.css */
+.header {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color: #16a34a;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 16px;
+}
+
+.header nav a:hover {
+    color: #16a34a;
+}
+
+.cartButton {
+    background: none;
+    border: none;
+    color: #16a34a;
+    cursor: pointer;
+}
+
+.cartButton svg {
+    width: 24px;
+    height: 24px;
+}
